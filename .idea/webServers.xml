@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5dac0214-0877-4fa0-af73-1709353bd566" name="EDA-GUI" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="W:\EMA-GUI" accessType="MOUNT" />
+      </webServer>
+      <webServer id="c5da52aa-7885-461d-96e0-0739c62982b6" name="winter-cleanup" url="http://ftpupload.net">
+        <fileTransfer host="ftpupload.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="33e8d6a0-9c05-474e-b2a6-ade710a40288" name="wintercleanup" url="http://ftpupload.net">
+        <fileTransfer host="ftpupload.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

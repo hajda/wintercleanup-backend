@@ -1,0 +1,15 @@
+# AuthType Basic
+# AuthName "Winter Cleanup"
+# AuthUserFile .htpasswd
+
+# Require valid-user
+
+# order allow,deny
+# Satisfy Any
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+</IfModule>

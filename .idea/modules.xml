@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Projects/ericsson/EMA-GUI/.idea/EMA-GUI.iml" filepath="$USER_HOME$/Projects/ericsson/EMA-GUI/.idea/EMA-GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/winter-cleanup.iml" filepath="$PROJECT_DIR$/.idea/winter-cleanup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wintercleanup/.idea/wintercleanup.iml" filepath="$PROJECT_DIR$/../wintercleanup/.idea/wintercleanup.iml" />
+    </modules>
+  </component>
+</project>

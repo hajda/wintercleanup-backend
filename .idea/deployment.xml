@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="winter-cleanup">
+    <serverData>
+      <paths name="EDA-GUI">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$USER_HOME$/Projects/ericsson/EMA-GUI" web="https://eth-emagui.rnd.ki.sw.ericsson.se/eda-gui" />
+            <mapping local="$PROJECT_DIR$" web="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="winter-cleanup">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/htdocs" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="wintercleanup">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/htdocs" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$USER_HOME$/Projects/ericsson/EMA-GUI" />
+            <mapping deploy="/htdocs" local="$PROJECT_DIR$/../wintercleanup" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>

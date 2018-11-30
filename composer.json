@@ -1,0 +1,24 @@
+{
+    "name": "Winter Cleanup",
+    "description": "Make a plan for your winter cleanup and check what's done.",
+    "keywords": ["winter cleanup", "christmas cleanup", "year-end cleanup", "cleanup"],
+    "homepage": "https://openalm.lmera.ericsson.se/projects/EMA-GUI/",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Dávid Hajba",
+            "email": "david.hajba@outlook.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "robmorgan/phinx": "^0.5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rocksfort\\WinterCleanup\\": "src/main/php/"
+        }
+    }
+}
